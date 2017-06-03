@@ -71,7 +71,7 @@ p3.add_tools(hover)
 
 #p3 = Bar(df2,label=CatAttr(columns=['name'], sort=True),values = '3ppercent', title = "Greatest 3 point percentage", color = 'firebrick', bar_width = 0.4)
 
-tab1 = Panel(child = p1, title = "3 pointers vs games playesxd")
+tab1 = Panel(child = p1, title = "3 pointers vs games played")
 tab2 = Panel(child = p2, title = "3 pointers attempted per game vs made per game")
 tab3 = Panel(child = p3, title = "3 point % bar chart")
 layout = Tabs(tabs = [tab1,tab2,tab3])
